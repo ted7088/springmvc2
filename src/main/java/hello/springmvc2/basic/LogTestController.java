@@ -10,7 +10,7 @@ public class LogTestController {
 
     private final Logger log =  LoggerFactory.getLogger(getClass());
 
-    @RequestMapping("/log-test")
+    @RequestMapping("/log-test22")
     public String logTest(){
         String name = "Spring";
 
